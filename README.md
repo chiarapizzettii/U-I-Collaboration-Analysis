@@ -44,7 +44,7 @@ To install the dependencies, you can run:
 `pip install pandas numpy matplotlib seaborn geopandas libpysal esda splot networkx`
 
 ## Data Source
-The analysis is based on a bibliometric dataset retrieved from **Scopus**, covering the period ***2020–2024**. The study specifically targets the **HealthTech** sector, with a focus on innovations at the intersection of medical devices, robotics, and digital health.
+The analysis is based on a bibliometric dataset retrieved from **Scopus**, covering the period **2020–2024**. The study specifically targets the **HealthTech** sector, with a focus on innovations at the intersection of medical devices, robotics, and digital health.
 
 
 
