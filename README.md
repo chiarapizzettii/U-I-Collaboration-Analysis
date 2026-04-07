@@ -39,6 +39,7 @@ The analysis is built with Python 3 and requires the following libraries:
 - **Visualization:** `matplotlib`, `seaborn`
 - **Geospatial Analysis:** `geopandas`, `libpysal`, `esda`, `splot`
 - **Network Science:** `networkx`
+
 To install the dependencies, you can run: 
 `pip install pandas numpy matplotlib seaborn geopandas libpysal esda splot networkx`
 
