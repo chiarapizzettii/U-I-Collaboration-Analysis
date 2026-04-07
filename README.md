@@ -9,32 +9,41 @@ This repository contains the data and analysis on knowledge spillovers and proxi
 
 **Core Hypothesis:** A strong **home bias** exists, meaning firms prefer to collaborate with universities in their own country (or region). This supports the theory that face-to-face interaction is crucial for transferring complex tacit knowledge.
 
+## Key Findings
+- **Home Bias Support:** The analysis confirms the hypothesis, showing that 84.4% of U-I collaborations occur between institutions in the same country.
+
+- **Institutional Classification:** The algorithm successfully classified 987 papers, identifying that 67.9% of the dataset involves direct University–Industry co-authorship.
+
+- **Knowledge Hubs:** The United States, China, and Italy emerge as top countries for U-I paper volume in this dataset.
+
 ## Notebook Outline
 The notebook `proximity_knowledge_spillovers.ipynb` covers the following analyses:
 
-  1. **Data Loading & Cleaning** — Importing and validating the Scopus dataset
-  
-  2. **Institution Classification** — Tagging each affiliation as university, company, hospital, or other
-  
-  3. **Country Extraction** — Parsing country information from affiliation strings
-  
-  4. **Home-Bias Analysis** — Testing whether U–I co-authored papers tend to involve same-country collaborators
-  
-  5. **Top Collaborating Institution Pairs** — Most frequent (university, company) pairings
-  
-  6. **Top Collaborating Countries** — Country-level overview of U–I publication activity
-  
-  7. **Cross-Country Collaboration Matrix** — Heatmap of international knowledge corridors
-  
-  8. **Collaboration Network Visualisation** — Graph of country-level U–I ties (NetworkX)
-  
-  9. **Temporal Evolution** — Trends in U–I collaboration share over time
-  
-  10. **Choropleth Maps** — Geographic distribution of HealthTech and U–I papers (GeoPandas)
-  
-  11. **Spatial Autocorrelation** — Global Moran's I and LISA cluster maps
-  
-  12. **Proximity Effect on Citation Impact** — Mann-Whitney test comparing home-bias vs. cross-country papers by citation count
+**Data Loading & Cleaning:** Importing and validating Scopus datasets.
+
+**Institution Classification:** Using keyword-based parsing to tag affiliations as univ, company, hospital, or research_inst.
+
+**Country Extraction:** Parsing geographic information from affiliation strings.
+
+**Home-Bias Analysis:** Testing if U–I co-authored papers involve same-country collaborators.
+
+**Network Visualization:** Graphing country-level U–I ties using NetworkX.
+
+**Spatial Autocorrelation:** Calculating Global Moran's I and LISA cluster maps to identify geographic clustering of innovation.
+
+**Impact Analysis:** Comparing citation counts between "home-bias" and cross-country collaborations.
+
+## Requirements
+The analysis is built with Python 3 and requires the following libraries:
+- **Data Analysis:** `pandas`, `numpy`
+- **Visualization:** `matplotlib`, `seaborn`
+- **Geospatial Analysis:** `geopandas`, `libpysal`, `esda`, `splot`
+- **Network Science:** `networkx
+To install the dependencies, you can run:
+`pip install pandas numpy matplotlib seaborn geopandas libpysal esda splot networkx`
+
+## Data Source
+The analysis uses a Scopus dataset covering the years 2020-2024
 
 
 
