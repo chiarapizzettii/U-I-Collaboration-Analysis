@@ -3,11 +3,11 @@
 This repository contains the data and analysis on knowledge spillovers and proximity in the HealthTech sector. The study uses Scopus bibliometric data to identify and quantify university–industry (U–I) collaborations through co-authorship analysis.
 
 ## Research Overview
-**Objective:** Identify and quantify university–industry collaborations in HealthTech using Scopus publication data.
+- **Objective:** Identify and quantify university–industry collaborations in HealthTech using Scopus publication data.
 
-**Methodology:** Co-authorship analysis — filtering for papers jointly authored by at least one university and one private company.
+- **Methodology:** Co-authorship analysis — filtering for papers jointly authored by at least one university and one private company.
 
-**Core Hypothesis:** A strong **home bias** exists, meaning firms prefer to collaborate with universities in their own country (or region). This supports the theory that face-to-face interaction is crucial for transferring complex tacit knowledge.
+- **Core Hypothesis:** A strong **home bias** exists, meaning firms prefer to collaborate with universities in their own country (or region). This supports the theory that face-to-face interaction is crucial for transferring complex tacit knowledge.
 
 ## Key Findings
 - **Home Bias Support:** The analysis confirms the hypothesis, showing that 84.4% of U-I collaborations occur between institutions in the same country.
