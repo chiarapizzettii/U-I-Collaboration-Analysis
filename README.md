@@ -19,19 +19,19 @@ This repository contains the data and analysis on knowledge spillovers and proxi
 ## Notebook Outline
 The notebook `proximity_knowledge_spillovers.ipynb` covers the following analyses:
 
-**Data Loading & Cleaning:** Importing and validating Scopus datasets.
+- **Data Loading & Cleaning:** Importing and validating Scopus datasets.
 
-**Institution Classification:** Using keyword-based parsing to tag affiliations as univ, company, hospital, or research_inst.
+- **Institution Classification:** Using keyword-based parsing to tag affiliations as univ, company, hospital, or research_inst.
 
-**Country Extraction:** Parsing geographic information from affiliation strings.
+- **Country Extraction:** Parsing geographic information from affiliation strings.
 
-**Home-Bias Analysis:** Testing if U–I co-authored papers involve same-country collaborators.
+- **Home-Bias Analysis:** Testing if U–I co-authored papers involve same-country collaborators.
 
-**Network Visualization:** Graphing country-level U–I ties using NetworkX.
+- **Network Visualization:** Graphing country-level U–I ties using NetworkX.
 
-**Spatial Autocorrelation:** Calculating Global Moran's I and LISA cluster maps to identify geographic clustering of innovation.
+- **Spatial Autocorrelation:** Calculating Global Moran's I and LISA cluster maps to identify geographic clustering of innovation.
 
-**Impact Analysis:** Comparing citation counts between "home-bias" and cross-country collaborations.
+- **Impact Analysis:** Comparing citation counts between "home-bias" and cross-country collaborations.
 
 ## Requirements
 The analysis is built with Python 3 and requires the following libraries:
